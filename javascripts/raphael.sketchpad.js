@@ -154,7 +154,7 @@
                 }
             }
             if (str[str.length - 1] === 'Z') path.push('Z');
-            return path;
+            return path; 
         }
 
         self.json = function (value, isinitial) {
