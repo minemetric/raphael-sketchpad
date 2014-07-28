@@ -1,18 +1,16 @@
 /*
 * Raphael SketchPad
-* Version 0.5.1
-* Copyright (c) 2011 Ian Li (http://ianli.com)
+* Version 0.6.0
+* Copyright (c) 2014 eMetric LLC
 * Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) license.
 *
 * Requires:
 * jQuery	http://jquery.com
 * Raphael	http://raphaeljs.com
 * JSON		http://www.json.org/js.html
-*
-* Reference:
-* http://ianli.com/sketchpad/ for Usage
 * 
 * Versions:
+* 0.6.0 - Developed for eMetric platform
 * 0.5.1 - Fixed extraneous lines when first line is drawn.
 *         Thanks to http://github.com/peterkeating for the fix!
 * 0.5.0 - Added freeze_history. Fixed bug with undoing erase actions.
@@ -24,12 +22,6 @@
 * 0.2.0 - Added iPhone/iPod Touch support, onchange event, animate.
 * 0.1.0 - Started code.
 *
-* TODO:
-* - Speed up performance.
-*   - Don't store strokes in two places. _strokes and ActionHistory.current_strokes()
-*     - Don't rebuild strokes from history with ActionHistory.current_strokes()
-* - Reduce file size.
-*   X V1. Changed stored path info from array into a string in SVG format.
 */
 
 /**
