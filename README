@@ -1,18 +1,8 @@
-Version 0.5.2
-Modified for eMetric platform
-
-Previous version:
 Raphael SketchPad
-Version 0.5.1
+Version 0.6.0
+Raphael Sketchpad 0.6.0 is developed for eMetric platform based on Raphael SketchPad 0.5.1. 
+It requires jQuery, Raphael and JSON.stringify.
 
-Raphael Sketchpad is a simple drawing editor that you can easily include with your forms.
-It is similar to Mai'Nada.net's InputDraw, but does not require Flash.
-It is built on top of the Raphael Javascript vector graphics library.
-
-Raphael Sketchpad requires these Javascript libraries: Raphael, jQuery, and JSON.stringify.
-
-http://ianli.com/sketchpad
-
-Copyright (c) 2011 Ian Li (http://ianli.com)
+Copyright (c) 2014 eMetric LLC
 Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) license.
 
